@@ -44,3 +44,4 @@ E:\Projects\QuartzPlatform\QuartzPlatform\obj\Debug\QuartzPlatform.csproj.Genera
 E:\Projects\QuartzPlatform\QuartzPlatform\obj\Debug\QuartzPlatform.exe.licenses
 E:\Projects\QuartzPlatform\QuartzPlatform\obj\Debug\QuartzPlatform.exe
 E:\Projects\QuartzPlatform\QuartzPlatform\obj\Debug\QuartzPlatform.pdb
+E:\Projects\QuartzPlatform\QuartzPlatform\bin\Debug\QuartzPlatform.exe.config

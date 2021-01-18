@@ -10,8 +10,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>QuartzPlatform</RootNamespace>
     <AssemblyName>QuartzPlatform</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -74,6 +75,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -98,6 +100,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="images\Apps_web_browser_96px_1187121_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\26bd79a050e5131a6620949261eb566f.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\3b8e7e0d950a83f01baa6ee0274d41ec.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\3c4397ea9dad928e89d2504619b47a40.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="controls\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
