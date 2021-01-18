@@ -63,6 +63,7 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -71,6 +72,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -81,6 +83,21 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\85cf67ca3d6d36fd5ef470e1a7da796d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\26710fd4e21f0cd8436483695dc9f11a.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\18961499af00d6b8fcc7265a10f23714.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\828771530d9c245a41f5915a6d78863d.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Apps_web_browser_96px_1187121_easyicon.net.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
